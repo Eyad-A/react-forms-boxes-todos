@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from 'uuid';
+import "./NewTodoForm.css";
 
 const NewTodoForm = ({ createTodo }) => {
     const [task, setTask] = useState("");
@@ -15,7 +16,7 @@ const NewTodoForm = ({ createTodo }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="todoform" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="task">Task:</label>
                 <input

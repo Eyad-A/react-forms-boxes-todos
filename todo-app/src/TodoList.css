@@ -1,0 +1,64 @@
+.todolist {
+    text-align: center;    
+    width: 500px;	
+	background: #f4f7f8;
+	margin: 30px auto;
+	padding: 20px;	
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.todolist fieldset{
+	border: none;
+}
+
+.todolist legend {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.todolist label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.todolist input[type="text"] {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgb(180, 180, 180);
+	border: none;
+	border-radius: 4px;
+	font-size: 18px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 	
+	color:#ffffff;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+.todolist input[type="text"]:focus {
+    background: #0000003a;
+}
+
+.todolist ul {
+    text-align: left !important;
+    width: 400px;
+    border-spacing: 10px 10px;	
+	background: #f4f7f8;
+	margin: 5px auto;
+	padding: 0;
+	background: #f4f7f8;
+    border-radius: 8px;
+    text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.todolist li {
+    list-style-type: none;
+    font-size: 18px;
+}

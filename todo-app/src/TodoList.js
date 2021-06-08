@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NewTodoForm from "./NewTodoForm";
 import Todo from "./Todo";
+import "./TodoList.css";
 
 function TodoList() {
     const [todos, setTodos] = useState([]);
@@ -23,7 +24,7 @@ function TodoList() {
     ));
 
     return (
-        <div>
+        <div className="todolist">
             <NewTodoForm createTodo={create}/>
             <ul>{todoComponents}</ul>
         </div>

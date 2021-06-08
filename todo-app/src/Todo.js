@@ -1,4 +1,5 @@
 import React from "react";
+import "./Todo.css";
 
 function Todo({ task = "Walk the dog", id = "1", remove}) {
     const handleDelete = () => remove(id);
@@ -6,9 +7,8 @@ function Todo({ task = "Walk the dog", id = "1", remove}) {
     return (
         <div>
             <div>
-                <li>{task}</li>
-            </div>
-            <button onClick={handleDelete}>X</button>
+                <li>{task} <button onClick={handleDelete}>X</button></li>                
+            </div>            
         </div>
     );
 }
